@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700|Open+Sans:400,700|Roboto+Slab:300);
+*{
+  margin: 0;
+  padding:0
+}
+body{
+  font-family: 'Roboto Slab', serif;
+  font-size: 19px;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+h1 a{
+  color:#30B4CC;
+}
+h5,h1{
+  color:#2599C6;
+}
+#head-title{
+  color:#fff;
+}
+.page-header{
+  background-color: #30B4CC;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
+  color:#fff;
+}
+.post{
+  margin-bottom: 70px;
+}
+.post h1 a, .post h1 a:visited{
+  color:#30B4Cc;
+}
+.top-menu, .top-menu:hover, .top-menu:visited {
+  color: #ffffff;
+  float: right;
+  font-size: 26pt;
+  margin-right: 20px;
+}
+.save {
+  float: right;
+}
+
+.post-form textarea, .post-form input {
+  width: 100%;
+}
+.date {
+  float: right;
+  color: #828282;
+}
