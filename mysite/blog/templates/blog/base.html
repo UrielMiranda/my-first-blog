@@ -10,7 +10,10 @@
   <title>My blog</title>
 </head>
 <body>
-  <div class="page-header col-md-12"><h1 id="head-title">Nekro Blog</h1></div>
+  <div class="page-header">
+    <a href="{% url 'blog.views.post_new' %}" class='top-menu'><span class="glyphicon glyphicon-plus"></span></a>
+    <h1 id="head-title">Nekro Blog</h1>
+  </div>
     <div class="content container">
       <div class="row">
         <div class="col-md-8">
